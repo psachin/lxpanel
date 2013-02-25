@@ -26,6 +26,7 @@
 
 #define BUF_SIZE 1024
 #define ACPI_PATH_SYS_POWER_SUPPY   "/sys/class/power_supply"
+#define SYS_BATTERY   "/sys/class/power_supply/battery"
 #define MIN_CAPACITY	 0.01
 #define MIN_PRESENT_RATE 0.01
 #define BATTERY_DESC	"Battery"
@@ -35,7 +36,7 @@
 typedef struct battery {
     int battery_num;
     /* path to battery dir */
-    const gchar *path;			
+    const gchar *path;
     /* sysfs file contents */
     int charge_now;
     int energy_now;
@@ -54,8 +55,18 @@ typedef struct battery {
     int type_battery;
 } battery;
 
+typedef struct batt_cap {
+    int per;
+    const gchar *path1;
+    int type_battery;				
+} batt_cap;
+
+batt_cap *batt_cap_get();
+void batt_cap_update( batt_cap *b1);
+
 battery *battery_get();
 void battery_update( battery *b );
+
 void battery_print(battery *b, int show_capacity);
 gboolean battery_is_charging( battery *b );
 gint battery_get_remaining( battery *b );

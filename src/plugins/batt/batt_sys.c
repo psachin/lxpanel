@@ -58,6 +58,30 @@ battery* battery_new() {
     return b;
 }
 
+batt_cap* batt_cap_new() {
+    batt_cap * b1 = g_new0 ( batt_cap, 1);
+    b1->per = -1;
+    b1->type_battery = TRUE;
+    return b1;
+}
+
+static gchar* parse_batt_cap_file(batt_cap *b1, char *sys_batt)
+{
+    char *buf1 = NULL;
+    gchar *value1 = NULL;
+    GString *bat_file = g_string_new(SYS_BATTERY);
+
+    g_string_append_printf (bat_file, "/%s/%s", b1->path1, sys_batt);
+
+    if (g_file_get_contents(bat_file->str, &buf1, NULL, NULL) == TRUE) {
+	value1 = g_strdup( buf1 );
+	value1 = g_strstrip( value1 );
+	g_free( buf1 );
+    }
+
+    g_string_free(bat_file, TRUE);
+    return value1;
+}
 
 static gchar* parse_info_file(battery *b, char *sys_file)
 {
@@ -90,6 +114,21 @@ static gint get_gint_from_infofile(battery *b, gchar *sys_file)
 	return atoi(file_content) / 1000;
 
     return -1;
+}
+
+static gint get_gint_from_batt_file(batt_cap *b1, gchar *sys_batt)
+{
+    gchar *file_content = parse_batt_cap_file(b1, sys_batt);
+
+    if (file_content != NULL)
+	return atoi(file_content);
+
+    return -1;
+}
+
+static gchar* get_gchar_from_batt_file(batt_cap *b1, gchar *sys_batt)
+{
+    return parse_batt_cap_file(b1, sys_batt);
 }
 
 static gchar* get_gchar_from_infofile(battery *b, gchar *sys_file)
@@ -142,6 +181,14 @@ void battery_print(battery *b, int show_capacity)
     }
 }
 
+
+void batt_cap_update(batt_cap *b1)
+{
+    b1->per = get_gint_from_batt_file(b1, "capacity");
+    if(!b1->per)
+      b1->per = get_gchar_from_batt_file(b1, "capacity");
+
+}
 
 void battery_update(battery *b)
 {
@@ -257,6 +304,33 @@ void battery_update(battery *b)
     }
 }
 
+
+batt_cap *batt_cap_get() {
+    GError * error = NULL;
+    const gchar *entry;
+    GDir * dir = g_dir_open( SYS_BATTERY, 0, &error );
+    batt_cap *b1 = NULL;
+    if ( dir == NULL ) 
+    {
+	g_warning( "NO ACPI/sysfs support in kernel: %s", error->message );
+	return NULL;
+    }
+    while ( ( entry = g_dir_read_name (dir) ) != NULL )  
+    {
+	b1 = batt_cap_new();
+	b1->path1 = g_strdup( entry );
+	batt_cap_update ( b1 );
+	if ( b1->type_battery == TRUE ) 
+	    break;
+	/* ignore non-batteries */
+	else { 			
+	    g_free(b1);
+	    b1 = NULL;
+	}
+    }
+    g_dir_close( dir );
+    return b1;
+}
 
 battery *battery_get() {
     GError * error = NULL;

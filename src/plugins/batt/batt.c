@@ -88,6 +88,9 @@ typedef struct {
     gboolean has_ac_adapter;
 } lx_battery;
 
+typedef struct {
+     batt_cap* b1;
+} lx_batt_cap;
 
 typedef struct {
     char *command;
@@ -95,7 +98,7 @@ typedef struct {
 } Alarm;
 
 static void destructor(Plugin *p);
-static void update_display(lx_battery *lx_b, gboolean repaint);
+static void update_display(lx_battery *lx_b, lx_batt_cap *lx_b1, gboolean repaint);
 
 /* alarmProcess takes the address of a dynamically allocated alarm struct (which
    it must free). It ensures that alarm commands do not run concurrently. */
@@ -113,10 +116,11 @@ static void * alarmProcess(void *arg) {
 
 /* FIXME:
    Don't repaint if percentage of remaining charge and remaining time aren't changed. */
-void update_display(lx_battery *lx_b, gboolean repaint) {
+void update_display(lx_battery *lx_b, lx_batt_cap *lx_b1, gboolean repaint) {
     cairo_t *cr;
     char tooltip[ 256 ];
     battery *b = lx_b->b;
+    batt_cap *b1 = lx_b1->b1;
     /* unit: mW */
     int rate;
     gboolean isCharging;
@@ -175,6 +179,11 @@ void update_display(lx_battery *lx_b, gboolean repaint) {
 	int hours = lx_b->b->seconds / 3600;
 	int left_seconds = b->seconds - 3600 * hours;
 	int minutes = left_seconds / 60;
+	//printf("precentage : %d\n", percentage);
+	printf("hours: %d\n", hours);
+	printf("minutes: %02d\n", minutes);
+	printf("precentage: %02d\n", lx_b1->b1->per);
+
 	snprintf(tooltip, 256,
 		_("Battery: %d%% charged, %d:%02d until full"),
 		lx_b->b->percentage,
@@ -244,7 +253,7 @@ void update_display(lx_battery *lx_b, gboolean repaint) {
 }
 
 /* This callback is called every 3 seconds */
-static int update_timout(lx_battery *lx_b) {
+static int update_timout(lx_battery *lx_b, lx_batt_cap *lx_b1) {
     GDK_THREADS_ENTER();
     lx_b->state_elapsed_time++;
     lx_b->info_elapsed_time++;
@@ -252,7 +261,7 @@ static int update_timout(lx_battery *lx_b) {
     /* check the  batteries every 3 seconds */
     battery_update( lx_b->b );
 
-    update_display( lx_b, TRUE );
+    update_display( lx_b, lx_b1, TRUE );
 
     GDK_THREADS_LEAVE();
     return TRUE;
@@ -263,8 +272,9 @@ static gint buttonPressEvent(GtkWidget *widget, GdkEventButton *event,
         Plugin* plugin) {
 
     lx_battery *lx_b = (lx_battery*)plugin->priv;
+    lx_batt_cap *lx_b1 = (lx_batt_cap*)plugin->priv;
 
-    update_display(lx_b, TRUE);
+    update_display(lx_b, lx_b1,TRUE);
 
     if( event->button == 3 )  /* right button */
     {
@@ -277,7 +287,7 @@ static gint buttonPressEvent(GtkWidget *widget, GdkEventButton *event,
 
 
 static gint configureEvent(GtkWidget *widget, GdkEventConfigure *event,
-        lx_battery *lx_b) {
+        lx_battery *lx_b, lx_batt_cap *lx_b1) {
 
     ENTER;
 
@@ -301,7 +311,7 @@ static gint configureEvent(GtkWidget *widget, GdkEventConfigure *event,
     check_cairo_surface_status(&lx_b->pixmap);
 
     /* Perform an update so the bar will look right in its new orientation */
-    update_display(lx_b, FALSE);
+    update_display(lx_b, lx_b1, FALSE);
 
     RET(TRUE);
 
