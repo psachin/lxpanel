@@ -1,0 +1,1440 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lxpanel 0.5.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-10 16:52+0200\n"
+"PO-Revision-Date: 2012-07-07 22:35+0200\n"
+"Last-Translator: kizito <kbirabwa@yahoo.co.uk>\n"
+"Language-Team: Luganda <kbirabwa@yahoo.co.uk>\n"
+"Language: lg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: ../src/configurator.c:54 ../src/gtk-run.c:360
+msgid "Run"
+msgstr "Tandika"
+
+#: ../src/configurator.c:56
+msgid "Restart"
+msgstr "Damu okutandika"
+
+#: ../src/configurator.c:57
+msgid "Logout"
+msgstr "Komya olutuula"
+
+#: ../src/configurator.c:468
+msgid "Currently loaded plugins"
+msgstr "Ebyongerwako ebikola kakano"
+
+#: ../src/configurator.c:477
+msgid "Stretch"
+msgstr "Lwenaanule"
+
+#: ../src/configurator.c:596
+msgid "Add plugin to panel"
+msgstr "Ekyongerwako kigatte ku lubaawo"
+
+#: ../src/configurator.c:624
+msgid "Available plugins"
+msgstr "Ebyongerwako ebirowo"
+
+#: ../src/configurator.c:1202
+msgid "Logout command is not set"
+msgstr "Totegese kiragiro ekikomya olutuula"
+
+#: ../src/configurator.c:1255
+msgid "Select a directory"
+msgstr "Londa tterekero"
+
+#: ../src/configurator.c:1255 ../src/configurator.c:1346
+msgid "Select a file"
+msgstr "Londa fayiro"
+
+#: ../src/configurator.c:1373
+msgid "_Browse"
+msgstr "_Noonya"
+
+#: ../src/panel.c:657
+msgid ""
+"Really delete this panel?\n"
+"<b>Warning: This can not be recovered.</b>"
+msgstr ""
+"Ddala olubaawo luno luggibwewo?\n"
+"<b>Kulabula: Ekikolwa kino tosobola kukijjulula.</b>"
+
+#: ../src/panel.c:659
+msgid "Confirm"
+msgstr "Kakasa"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/panel.c:692
+msgid "translator-credits"
+msgstr "Kizito Birabwa <kbirabwa@yahoo.co.uk</b>"
+
+#: ../src/panel.c:697
+msgid "LXPanel"
+msgstr "LXPanel"
+
+#: ../src/panel.c:699
+msgid "Copyright (C) 2008-2011"
+msgstr "Copyright (C) 2008-2011"
+
+#: ../src/panel.c:700
+msgid "Desktop panel for LXDE project"
+msgstr "Olubaawo olutuula awakolerwa olw'omu LXDE"
+
+#: ../src/panel.c:723
+msgid "Add / Remove Panel Items"
+msgstr "Yongerako oba gyako ebisangibwa ku lubaawo"
+
+#: ../src/panel.c:731
+#, c-format
+msgid "Remove \"%s\" From Panel"
+msgstr "Gya \"%s\" ku Lubaawo"
+
+#: ../src/panel.c:743
+msgid "Panel Settings"
+msgstr "Enteekateeka ya Lubaawo"
+
+#: ../src/panel.c:749
+msgid "Create New Panel"
+msgstr "Kolawo olubaawo olulala"
+
+#: ../src/panel.c:760
+msgid "Delete This Panel"
+msgstr "Gyawo olubaawo luno"
+
+#: ../src/panel.c:771
+msgid "About"
+msgstr "Ebirufaako"
+
+#: ../src/panel.c:779
+msgid "Panel"
+msgstr "Lubaawo"
+
+#: ../src/panel.c:792
+#, c-format
+msgid "\"%s\" Settings"
+msgstr "Enteekateeka za \"%s\""
+
+#: ../src/panel.c:1048 ../src/panel.c:1056 ../data/ui/panel-pref.glade.h:16
+msgid "Height:"
+msgstr "Obugulumivu:"
+
+#: ../src/panel.c:1049 ../src/panel.c:1055 ../data/ui/panel-pref.glade.h:15
+msgid "Width:"
+msgstr "Obuwanvu:"
+
+#: ../src/panel.c:1050 ../data/ui/panel-pref.glade.h:11
+msgid "Left"
+msgstr "Ku kkono"
+
+#: ../src/panel.c:1051 ../data/ui/panel-pref.glade.h:12
+msgid "Right"
+msgstr "Ku ddyo"
+
+#: ../src/panel.c:1057 ../data/ui/panel-pref.glade.h:10
+msgid "Top"
+msgstr "Waggulu"
+
+#: ../src/panel.c:1058 ../data/ui/panel-pref.glade.h:9
+msgid "Bottom"
+msgstr "Wansi"
+
+#: ../src/panel.c:1466
+#, c-format
+msgid "lxpanel %s - lightweight GTK2+ panel for UNIX desktops\n"
+msgstr ""
+"lxpanel %s - Lubaawo lwa ku kompyuta ez'oluse lwa UNIX olutanyunyunta "
+"kompyuta olweyambisa GTK2+\n"
+
+#: ../src/panel.c:1467
+#, c-format
+msgid "Command line options:\n"
+msgstr ""
+"Obuwayiro bw'osobola okwongera ku kiragiro ekiruntandika okuva mu "
+"kiwandikiro:\n"
+
+#: ../src/panel.c:1468
+#, c-format
+msgid " --help      -- print this help and exit\n"
+msgstr ""
+" --help      -- kano kakireetera okukoma ku kuwandika obuyambi buno "
+"bw'osoma\n"
+
+#: ../src/panel.c:1469
+#, c-format
+msgid " --version   -- print version and exit\n"
+msgstr ""
+" --version   -- kano kakireetera okukoma ku kulaga oluwandika lwa "
+"puloguramu\n"
+
+#: ../src/panel.c:1470
+#, c-format
+msgid " --log <number> -- set log level 0-5. 0 - none 5 - chatty\n"
+msgstr ""
+" --log <number> -- kano kategeka obungi bw'ebifa ku mulimu bye kiwandika. 0 "
+"- tekibaako bye kiwandika ate 5 - kiwandikawandika nnyo\n"
+
+#. g_print(_(" --configure -- launch configuration utility\n"));
+#: ../src/panel.c:1472
+#, c-format
+msgid " --profile name -- use specified profile\n"
+msgstr ""
+" --profile linnya -- kano kakireetera okukogoberera ebiwandikwa mu lukalala "
+"'linnya'\n"
+
+#: ../src/panel.c:1474
+#, c-format
+msgid " -h  -- same as --help\n"
+msgstr " -h  -- kakola ekimu n'aka --help\n"
+
+#: ../src/panel.c:1475
+#, c-format
+msgid " -p  -- same as --profile\n"
+msgstr " -p  -- kakola ekimu n'aka --profile\n"
+
+#: ../src/panel.c:1476
+#, c-format
+msgid " -v  -- same as --version\n"
+msgstr " -v  -- kakola ekimu n'aka --version\n"
+
+#. g_print(_(" -C  -- same as --configure\n"));
+#: ../src/panel.c:1478
+#, c-format
+msgid ""
+"\n"
+"Visit http://lxde.org/ for detail.\n"
+"\n"
+msgstr ""
+"\n"
+"Okumanya ebisingawo, kyalira http://lxde.org/ .\n"
+"\n"
+
+#: ../src/gtk-run.c:373
+msgid "Enter the command you want to execute:"
+msgstr "Wandika ekiragiro kye wetaaga:"
+
+#: ../data/ui/launchbar.glade.h:1 ../src/plugins/launchbar.c:912
+msgid "Application Launch Bar"
+msgstr "Kabaawo ak'okutandika puloguramu"
+
+#: ../data/ui/netstatus.glade.h:1
+msgid "<b>Connection</b>"
+msgstr "<b>Empulizigana</b>"
+
+#: ../data/ui/netstatus.glade.h:2
+msgid "Status:"
+msgstr "Embeera:"
+
+#: ../data/ui/netstatus.glade.h:3
+msgid "_Name:"
+msgstr "_Linnya:"
+
+#: ../data/ui/netstatus.glade.h:4
+msgid "<b>Activity</b>"
+msgstr "<b>Okuwanyisagana</b>"
+
+#: ../data/ui/netstatus.glade.h:5
+msgid "Received:"
+msgstr "Ebifunidwa:"
+
+#: ../data/ui/netstatus.glade.h:6
+msgid "Sent:"
+msgstr "Ebisindikidwa:"
+
+#: ../data/ui/netstatus.glade.h:7
+msgid "<b>Signal Strength</b>"
+msgstr "<b>Bulamu bw'omukutu</b>"
+
+#: ../data/ui/netstatus.glade.h:9
+#, no-c-format
+msgid "0%"
+msgstr "0%"
+
+#: ../data/ui/netstatus.glade.h:10
+msgid "General"
+msgstr "Ebitalibimu"
+
+#: ../data/ui/netstatus.glade.h:11
+msgid "<b>Internet Protocol (IPv4)</b>"
+msgstr "<b>Enkola ya (IPV4)</b>"
+
+#: ../data/ui/netstatus.glade.h:12
+msgid "Address:"
+msgstr "Ndagiriro:"
+
+#: ../data/ui/netstatus.glade.h:13
+msgid "Destination:"
+msgstr "Ekigendererwa:"
+
+#: ../data/ui/netstatus.glade.h:14 ../src/plugins/netstat/netstat.c:333
+#: ../src/plugins/netstat/netstat.c:344
+msgid "Broadcast:"
+msgstr "Endagiriro efulumya ebisindikibwa kayungirizi yonna:"
+
+#: ../data/ui/netstatus.glade.h:15
+msgid "Subnet Mask:"
+msgstr "Namba eyawuzamu kayungirizi:"
+
+#: ../data/ui/netstatus.glade.h:16
+msgid "<b>Internet Protocol (IPv6)</b>"
+msgstr "<b>Enkola ya (IPv6)</b>"
+
+#: ../data/ui/netstatus.glade.h:17
+msgid "Scope:"
+msgstr "Olubu lwa IP olw'oku kayungirizi ento eno:"
+
+#: ../data/ui/netstatus.glade.h:18
+msgid "<b>Network Device</b>"
+msgstr "<b>Kyuma kya ku kayungirizi</b>"
+
+#: ../data/ui/netstatus.glade.h:19
+msgid "Type:"
+msgstr "Kika:"
+
+#: ../data/ui/netstatus.glade.h:20
+msgid "Support"
+msgstr "Buyambi"
+
+#: ../data/ui/netstatus.glade.h:21
+msgid "Con_figure"
+msgstr "En_teekateeka"
+
+#: ../data/ui/panel-pref.glade.h:1
+msgid "Dynamic"
+msgstr "Bukyuka"
+
+#: ../data/ui/panel-pref.glade.h:2
+msgid "Pixels"
+msgstr "Pikiseli"
+
+#: ../data/ui/panel-pref.glade.h:4
+#, no-c-format
+msgid "% Percent"
+msgstr "% Ebitundu ku kikumi"
+
+#: ../data/ui/panel-pref.glade.h:5
+msgid "Panel Preferences"
+msgstr "Enteekateeka ya lubaawo"
+
+#: ../data/ui/panel-pref.glade.h:6
+msgid "Edge:"
+msgstr "Ku njegoyego eya:"
+
+#: ../data/ui/panel-pref.glade.h:7
+msgid "Alignment:"
+msgstr "Gye lugwa:"
+
+#: ../data/ui/panel-pref.glade.h:8
+msgid "Margin:"
+msgstr "Gye lugwa lulekeyo akabanga ka:"
+
+#: ../data/ui/panel-pref.glade.h:13
+msgid "Center"
+msgstr "Mu makkati"
+
+#: ../data/ui/panel-pref.glade.h:14
+msgid "<b>Position</b>"
+msgstr "<b>Obusangiro bwa lwo</b>"
+
+#: ../data/ui/panel-pref.glade.h:17
+msgid "<b>Icon</b>"
+msgstr "<b>Obw'obufaananyi obuyunzi</b>"
+
+#: ../data/ui/panel-pref.glade.h:18
+msgid "pixels"
+msgstr "pikiseli"
+
+#: ../data/ui/panel-pref.glade.h:19
+msgid "<b>Size</b>"
+msgstr "<b>Obunene bwa lwo</b>"
+
+#: ../data/ui/panel-pref.glade.h:20
+msgid "Geometry"
+msgstr "Enkula"
+
+#: ../data/ui/panel-pref.glade.h:21
+msgid "System theme"
+msgstr "Lutwale enfaanana ya sisitemu"
+
+#: ../data/ui/panel-pref.glade.h:22
+msgid "Solid color (with opacity)"
+msgstr "Lutegekeko langi (n'okutangaala)"
+
+#: ../data/ui/panel-pref.glade.h:23
+msgid "Image"
+msgstr "Lutimbeko ekifaananyi"
+
+#: ../data/ui/panel-pref.glade.h:24
+msgid "Select an image file"
+msgstr "Londa ekifaananyi"
+
+#: ../data/ui/panel-pref.glade.h:25
+msgid "<b>Background</b>"
+msgstr "<b>Bwaliriro bwa lwo</b>"
+
+#: ../data/ui/panel-pref.glade.h:26
+msgid "Custom color"
+msgstr "Zirondere langi"
+
+#: ../data/ui/panel-pref.glade.h:27 ../src/plugins/space.c:125
+#: ../src/plugins/batt/batt.c:583
+msgid "Size"
+msgstr "Bunene"
+
+#: ../data/ui/panel-pref.glade.h:28
+msgid "<b>Font</b>"
+msgstr "<b>Enkula y'ennukuta zakwo</b>"
+
+#: ../data/ui/panel-pref.glade.h:29
+msgid "Appearance"
+msgstr "Endabika"
+
+#: ../data/ui/panel-pref.glade.h:30
+msgid "Panel Applets"
+msgstr "Bupuloguramu bwa ku lubaawo"
+
+#: ../data/ui/panel-pref.glade.h:31
+msgid "Logout Command:"
+msgstr "Ekiragiro ekikomya olutuula:"
+
+#: ../data/ui/panel-pref.glade.h:32
+msgid "Terminal Emulator:"
+msgstr "Kika kya kiwandikiro:"
+
+#: ../data/ui/panel-pref.glade.h:33
+msgid "File Manager:"
+msgstr "Kiteekateekafayiro:"
+
+#: ../data/ui/panel-pref.glade.h:34
+msgid "<b>Set Preferred Applications</b>"
+msgstr "<b>Puloguramu olubaawo ze lweyambisa</b>"
+
+#: ../data/ui/panel-pref.glade.h:35
+msgid "Make window managers treat the panel as dock"
+msgstr "Amadirisa agufunzidwa gagendenga ku lubaawo"
+
+#: ../data/ui/panel-pref.glade.h:36
+msgid "Reserve space, and not covered by maximized windows"
+msgstr "Amadirisa tegakkirizibwa ku lubikka"
+
+#: ../data/ui/panel-pref.glade.h:37
+msgid "<b>Properties</b>"
+msgstr "<b>Enneyisa ya lubaawo</b>"
+
+#: ../data/ui/panel-pref.glade.h:38
+msgid "Minimize panel when not in use"
+msgstr "Olubaawo lwemiime nga tolina ky'olukolerako"
+
+#: ../data/ui/panel-pref.glade.h:39
+msgid "Size when minimized"
+msgstr "Obunene bwalwo nga lwemiimye"
+
+#: ../data/ui/panel-pref.glade.h:40
+msgid "<b>Automatic hiding</b>"
+msgstr "<b>Enkweka y'olubaawo</b>"
+
+#: ../data/ui/panel-pref.glade.h:41
+msgid "Advanced"
+msgstr "Ebyetaagisa bumanyirivu"
+
+#: ../src/plugins/cpu/cpu.c:268
+msgid "CPU Usage Monitor"
+msgstr "Akalaga okukulusana kw'ekitundu ekibazi"
+
+#: ../src/plugins/cpu/cpu.c:270 ../src/plugins/monitors/monitors.c:711
+msgid "Display CPU usage"
+msgstr "Laga okukulusana kw'ekitundu ekibazi"
+
+#: ../src/plugins/deskno/deskno.c:207 ../src/plugins/dclock.c:438
+msgid "Bold font"
+msgstr "Ennukuta enziggumivu"
+
+#: ../src/plugins/deskno/deskno.c:208
+msgid "Display desktop names"
+msgstr "Amanya g'awakolerwa galabike"
+
+#: ../src/plugins/deskno/deskno.c:235
+msgid "Desktop Number / Workspace Name"
+msgstr "Namba y'awakolerwa /Linnya ly'awakolerwa"
+
+#: ../src/plugins/deskno/deskno.c:237
+msgid "Display workspace number, by cmeury@users.sf.net"
+msgstr "Display workspace number, eyakolebwa cmeury@users.sf.net"
+
+#: ../src/plugins/image.c:177
+msgid "Display Image and Tooltip"
+msgstr "Walabikewo akafaananyi era wajjengawo amagezi"
+
+#: ../src/plugins/launchbar.c:914
+msgid "Bar with buttons to launch application"
+msgstr "Kabaawo akagendako mapeesa agatandika puloguramu"
+
+#. Add Raise menu item.
+#: ../src/plugins/taskbar.c:1714
+msgid "_Raise"
+msgstr "_Sembeza"
+
+#. Add Restore menu item.
+#: ../src/plugins/taskbar.c:1719
+msgid "R_estore"
+msgstr "_Zawo"
+
+#. Add Maximize menu item.
+#: ../src/plugins/taskbar.c:1724
+msgid "Ma_ximize"
+msgstr "_Malawo olutimbe"
+
+#. Add Iconify menu item.
+#: ../src/plugins/taskbar.c:1729
+msgid "Ico_nify"
+msgstr "_Bikkako"
+
+#: ../src/plugins/taskbar.c:1748
+#, c-format
+msgid "Workspace _%d"
+msgstr "Awakolerwa _%d"
+
+#: ../src/plugins/taskbar.c:1753
+#, c-format
+msgid "Workspace %d"
+msgstr "Awakolerwa %d"
+
+#. Add "move to all workspaces" item.  This causes the window to be visible no matter what desktop is active.
+#: ../src/plugins/taskbar.c:1767
+msgid "_All workspaces"
+msgstr "_Wonna"
+
+#. Add Move to Workspace menu item as a submenu.
+#: ../src/plugins/taskbar.c:1773
+msgid "_Move to Workspace"
+msgstr "_Teeka awakolerwa"
+
+#. Add Close menu item.  By popular demand, we place this menu item closest to the cursor.
+#: ../src/plugins/taskbar.c:1779
+msgid "_Close Window"
+msgstr "_Ddirisa liggalewo"
+
+#: ../src/plugins/taskbar.c:1986
+msgid "Show tooltips"
+msgstr "Mpanga magezi"
+
+#: ../src/plugins/taskbar.c:1987
+msgid "Icons only"
+msgstr "Bufaananyi bwokka bwe buba bulabika"
+
+#: ../src/plugins/taskbar.c:1988
+msgid "Flat buttons"
+msgstr "Amapeesa gabe kameeza"
+
+#: ../src/plugins/taskbar.c:1989
+msgid "Show windows from all desktops"
+msgstr "Eddirisa lirabikenga wonna w'okolera"
+
+#: ../src/plugins/taskbar.c:1990
+msgid "Use mouse wheel"
+msgstr "Akapiira k'okukasongesa kakole"
+
+#: ../src/plugins/taskbar.c:1991
+msgid "Flash when there is any window requiring attention"
+msgstr "Wabewo ekitemya nga waliwo eddirisa eririmu ekyetaaga kukolebwako"
+
+#: ../src/plugins/taskbar.c:1992
+msgid "Combine multiple application windows into a single button"
+msgstr "Eppeesa limu lisobole okugatta madirisa ga puloguramu esukka mu emu"
+
+#: ../src/plugins/taskbar.c:1993
+msgid "Maximum width of task button"
+msgstr "Ekkomo ly'obugazi bw'eppeesa ly'omulimu"
+
+#: ../src/plugins/taskbar.c:1994
+msgid "Spacing"
+msgstr "Ebbanga eryawula mapeesa"
+
+#: ../src/plugins/taskbar.c:2047
+msgid "Task Bar (Window List)"
+msgstr "Kabaawo k'emirimu (Lukalala lw'amadirisa agaliwo)"
+
+#: ../src/plugins/taskbar.c:2049
+msgid ""
+"Taskbar shows all opened windows and allow to iconify them, shade or get "
+"focus"
+msgstr ""
+"Akabaawo k'emirimu kakulaga amadirisa agaliwo. Osobola okukakozesa "
+"okugafunza, okugazingako n'okugasembeza kungulu"
+
+#: ../src/plugins/dclock.c:434
+msgid "Clock Format"
+msgstr "Empandika ya ssaawa"
+
+#: ../src/plugins/dclock.c:435
+msgid "Tooltip Format"
+msgstr "Empandika y'amagezi"
+
+#: ../src/plugins/dclock.c:436
+msgid "Format codes: man 3 strftime; \\n for line break"
+msgstr ""
+"Obubonero obufuga empandika: bunyonyolebwa 'man 3 strftime'; \\n katandisawo "
+"olunyiriri olupya"
+
+#: ../src/plugins/dclock.c:437
+msgid "Action when clicked (default: display calendar)"
+msgstr "Ekiba wo nga onyize ku ssaawa (Ekya bulijjo: ekulaga kalenda)"
+
+#: ../src/plugins/dclock.c:439
+msgid "Tooltip only"
+msgstr "Bigambo bya kuwa magezibyokka"
+
+#: ../src/plugins/dclock.c:440
+msgid "Center text"
+msgstr "Ebiwandike byesimbenga mu makkati"
+
+#: ../src/plugins/dclock.c:469
+msgid "Digital Clock"
+msgstr "Ssaawa ya digiti"
+
+#: ../src/plugins/dclock.c:471
+msgid "Display digital clock and tooltip"
+msgstr "Ssaawa ya digiti awamu n'ebigambo bya kuwa magezi"
+
+#: ../src/plugins/menu.c:426
+msgid "Add to desktop"
+msgstr "Teeka awakolerwa"
+
+#: ../src/plugins/menu.c:436
+msgid "Properties"
+msgstr "Enneyisa"
+
+#: ../src/plugins/menu.c:1083 ../src/plugins/dirmenu.c:413
+msgid "Icon"
+msgstr "Kafaananyi"
+
+#: ../src/plugins/menu.c:1100
+msgid "Menu"
+msgstr "Menyu"
+
+#: ../src/plugins/menu.c:1102
+msgid "Application Menu"
+msgstr "Menyu ya kutandika puloguramu"
+
+#: ../src/plugins/separator.c:102
+msgid "Separator"
+msgstr "Ak'awuluza"
+
+#: ../src/plugins/separator.c:104
+msgid "Add a separator to the panel"
+msgstr "Olubaawo luteekekoak'awuluza"
+
+#: ../src/plugins/pager.c:837
+msgid "Desktop Pager"
+msgstr "Akalaga emirundi gy'awakolerwa"
+
+#: ../src/plugins/pager.c:839
+msgid "Simple pager plugin"
+msgstr "Ekyongerwako ekyanguya okukyusa w'okolera"
+
+#: ../src/plugins/space.c:143
+msgid "Spacer"
+msgstr "Kabanga"
+
+#: ../src/plugins/space.c:145
+msgid "Allocate space"
+msgstr "Kaleetawo ekibangirizi ekyereere"
+
+#: ../src/plugins/tray.c:737
+msgid "System Tray"
+msgstr "Kakuŋaanyizo"
+
+#: ../src/plugins/tray.c:739
+msgid "System tray"
+msgstr "Kakuŋaanya obufaananyi bwa puloguramu ezitalabikira awakolerwa"
+
+#: ../src/plugins/xkb/xkb-plugin.c:291
+msgid "Configure Keyboard Layout Switcher"
+msgstr "Enteekateeka y'ekikwanaganya entereeza y'amapeesa agawandisibwa"
+
+#: ../src/plugins/xkb/xkb-plugin.c:306
+msgid "Show layout as"
+msgstr "Entereeza girage mu"
+
+#: ../src/plugins/xkb/xkb-plugin.c:321
+msgid "image"
+msgstr "kifaananyi"
+
+#: ../src/plugins/xkb/xkb-plugin.c:322
+msgid "text"
+msgstr "bigambo"
+
+#: ../src/plugins/xkb/xkb-plugin.c:329
+msgid "Per application settings"
+msgstr "Enteekateeka ya puloguramu buli kinnakimu"
+
+#. Create a check button as the child of the vertical box.
+#: ../src/plugins/xkb/xkb-plugin.c:344
+msgid "_Remember layout for each application"
+msgstr "_Entereeza gijukirire buli puloguramu"
+
+#. Create a label as the child of the horizontal box.
+#: ../src/plugins/xkb/xkb-plugin.c:354
+msgid "Default layout:"
+msgstr "Entereeza eya bulijjo:"
+
+#: ../src/plugins/xkb/xkb-plugin.c:405
+msgid "Keyboard Layout Switcher"
+msgstr "Ekikwanaganya entereeza y'amapeesa agawandisibwa"
+
+#: ../src/plugins/xkb/xkb-plugin.c:407
+msgid "Switch between available keyboard layouts"
+msgstr ""
+"Kwanaganya enkola ya puloguramu n'entereeza y'amapeesa aga kompyuta "
+"agawandisibwa"
+
+#: ../src/plugins/wincmd.c:209
+msgid "Left click to iconify all windows.  Middle click to shade them."
+msgstr ""
+"Nyiga ppeesa lya kkono okufunza amadirisa.  Nyiga erya wakati okugazingako."
+
+#: ../src/plugins/wincmd.c:237
+msgid "Alternately iconify/shade and raise"
+msgstr ""
+"Okuddiŋana kuleetere eddirisa okufunzibwa/ kuzingibwako n'okuzzibwa ku ngulu"
+
+#: ../src/plugins/wincmd.c:266
+msgid "Minimize All Windows"
+msgstr "Funza madirisa gonna"
+
+#: ../src/plugins/wincmd.c:268
+msgid ""
+"Sends commands to all desktop windows.\n"
+"Supported commands are 1) iconify and 2) shade"
+msgstr ""
+"Kisindikira madirisa ebiragiro gonna awamu.\n"
+"Ebiragiro bye kisobola biri 1) kugafunza ne 2) kugazingako"
+
+#: ../src/plugins/dirmenu.c:246
+msgid "Open in _Terminal"
+msgstr "Tandikira mu _kiwandikiro"
+
+#: ../src/plugins/dirmenu.c:411
+msgid "Directory"
+msgstr "Tterekero"
+
+#: ../src/plugins/dirmenu.c:412
+msgid "Label"
+msgstr "Bulambe"
+
+#: ../src/plugins/dirmenu.c:443
+msgid "Directory Menu"
+msgstr "Menyu y'amaterekero"
+
+#: ../src/plugins/dirmenu.c:445
+msgid "Browse directory tree via menu (Author: PCMan)"
+msgstr "Menyu ekuyamba okunoonyeza mu materekero (Yakolebwa: PCMan)"
+
+#: ../src/plugins/thermal/thermal.c:474
+msgid "Normal"
+msgstr "Lya bulijjo"
+
+#: ../src/plugins/thermal/thermal.c:475
+msgid "Warning1"
+msgstr "Kulabula1"
+
+#: ../src/plugins/thermal/thermal.c:476
+msgid "Warning2"
+msgstr "Kulabula2"
+
+#: ../src/plugins/thermal/thermal.c:477
+msgid "Automatic sensor location"
+msgstr "Obusangiro bw'ekirabiriza"
+
+#: ../src/plugins/thermal/thermal.c:478
+msgid "Sensor"
+msgstr "Ekirabiriza"
+
+#: ../src/plugins/thermal/thermal.c:479
+msgid "Automatic temperature levels"
+msgstr "Kkomo z'ebbugumu ezireetawo okulabula"
+
+#: ../src/plugins/thermal/thermal.c:480
+msgid "Warning1 Temperature"
+msgstr "Kulabula1 Bbugumu"
+
+#: ../src/plugins/thermal/thermal.c:481
+msgid "Warning2 Temperature"
+msgstr "Kulabula2 Bbugumu"
+
+#: ../src/plugins/thermal/thermal.c:525
+msgid "Temperature Monitor"
+msgstr "Ekirabiriza bbugumu"
+
+#: ../src/plugins/thermal/thermal.c:527
+msgid "Display system temperature"
+msgstr "Laga ebbugumu eriri mu kompyuta"
+
+#. FIXME: display current level in tooltip. ex: "Volume Control: 80%"
+#. Display current level in tooltip.
+#: ../src/plugins/volume/volume.c:300
+#: ../src/plugins/volumealsa/volumealsa.c:339
+#: ../src/plugins/volumealsa/volumealsa.c:509
+msgid "Volume control"
+msgstr "Butumbiifu bwa ddoboozi"
+
+#: ../src/plugins/volume/volume.c:312
+#: ../src/plugins/volumealsa/volumealsa.c:629
+msgid "Volume Control"
+msgstr "Ekifuga butumbiifu bwa ddoboozi"
+
+#. Create a frame as the child of the viewport.
+#: ../src/plugins/volume/volume-impl.c:109
+#: ../src/plugins/volumealsa/volumealsa.c:467
+msgid "Volume"
+msgstr "Butumbiifu bwa ddoboozi"
+
+#. Create a check button as the child of the vertical box.
+#: ../src/plugins/volumealsa/volumealsa.c:486
+msgid "Mute"
+msgstr "Sirisa ddoboozi"
+
+#: ../src/plugins/volumealsa/volumealsa.c:602
+msgid ""
+"Error, you need to install an application to configure the sound "
+"(pavucontol, alsamixer ...)"
+msgstr ""
+"Wazewo kiremya. Wetaaga kufuna puloguramu eteekateeka eby'ebiwulirizibwa ku "
+"sisitemu yo (okugeza nga pavucontrol, alsamixer ...)"
+
+#: ../src/plugins/netstat/netstat.c:180
+msgid "<Hidden Access Point>"
+msgstr "<Mukutu ogukisidwa>"
+
+#: ../src/plugins/netstat/netstat.c:213
+msgid "Wireless Networks not found in range"
+msgstr "Tezuuseyo kayungirizi ey'omu bbanga"
+
+#. Repair
+#: ../src/plugins/netstat/netstat.c:247
+msgid "Repair"
+msgstr "Ddaabiriza"
+
+#. interface down
+#: ../src/plugins/netstat/netstat.c:252
+msgid "Disable"
+msgstr "Ssiba"
+
+#: ../src/plugins/netstat/netstat.c:313
+msgid "Wireless Connection has no connectivity"
+msgstr "Kayungirizi ey'omu bbanga tekwata"
+
+#: ../src/plugins/netstat/netstat.c:315
+msgid "Network cable is plugged out"
+msgstr "Kebo ya kayungirizi terimu"
+
+#: ../src/plugins/netstat/netstat.c:317
+msgid "Connection has limited or no connectivity"
+msgstr "Omukutu munafu oba teguyungidwako"
+
+#: ../src/plugins/netstat/netstat.c:321 ../src/plugins/netstat/netstat.c:332
+#: ../src/plugins/netstat/netstat.c:343
+msgid "IP Address:"
+msgstr "Endagiriro eya IP:"
+
+#: ../src/plugins/netstat/netstat.c:322
+msgid "Remote IP:"
+msgstr "Endagiriro eya IP ey'ebunayira:"
+
+#: ../src/plugins/netstat/netstat.c:323 ../src/plugins/netstat/netstat.c:334
+#: ../src/plugins/netstat/netstat.c:345
+msgid "Netmask:"
+msgstr "Namba evumbula kompyuta enyunge:"
+
+#: ../src/plugins/netstat/netstat.c:324 ../src/plugins/netstat/netstat.c:336
+#: ../src/plugins/netstat/netstat.c:347
+msgid "Activity"
+msgstr "Okuwanyisigana"
+
+#: ../src/plugins/netstat/netstat.c:324 ../src/plugins/netstat/netstat.c:336
+#: ../src/plugins/netstat/netstat.c:347
+msgid "Sent"
+msgstr "Ebisindikidwa"
+
+#: ../src/plugins/netstat/netstat.c:324 ../src/plugins/netstat/netstat.c:336
+#: ../src/plugins/netstat/netstat.c:347
+msgid "Received"
+msgstr "Ebifunidwa"
+
+#: ../src/plugins/netstat/netstat.c:325 ../src/plugins/netstat/netstat.c:337
+#: ../src/plugins/netstat/netstat.c:348
+msgid "bytes"
+msgstr "bayiti"
+
+#: ../src/plugins/netstat/netstat.c:326 ../src/plugins/netstat/netstat.c:338
+#: ../src/plugins/netstat/netstat.c:349
+msgid "packets"
+msgstr "bitole"
+
+#: ../src/plugins/netstat/netstat.c:329
+#: ../src/plugins/netstatus/netstatus-iface.c:173
+msgid "Wireless"
+msgstr "Kayungirizi ow'omu bbanga"
+
+#: ../src/plugins/netstat/netstat.c:331
+msgid "Protocol:"
+msgstr "Mateeka:"
+
+#: ../src/plugins/netstat/netstat.c:335 ../src/plugins/netstat/netstat.c:346
+msgid "HW Address:"
+msgstr "Endagiriro y'ekyuma - HW:"
+
+#: ../src/plugins/netstat/netstat.c:484
+msgid "Manage Networks"
+msgstr "Teekateeka kayungirizi"
+
+#: ../src/plugins/netstat/netstat.c:486
+msgid "Monitor and Manage networks"
+msgstr "Labiriza n'okuteekateeka kayungirizi"
+
+#. create dialog
+#: ../src/plugins/netstat/passwd_gui.c:86
+msgid "Setting Encryption Key"
+msgstr "Tegeka akasumuluzo k'ebyama"
+
+#. messages
+#: ../src/plugins/netstat/passwd_gui.c:96
+msgid ""
+"This wireless network was encrypted.\n"
+"You must have the encryption key."
+msgstr ""
+"Kayungirizi ey'omu bbanga eno ya kyama.\n"
+"Wetaaga akasumuluzo ka yo."
+
+#: ../src/plugins/netstat/passwd_gui.c:101
+msgid "Encryption Key:"
+msgstr "Kasumuluzo k'ebyama:"
+
+#: ../src/plugins/netstatus/netstatus.c:179
+msgid "Interface to monitor"
+msgstr "Ensisinkano erabirizibwa"
+
+#: ../src/plugins/netstatus/netstatus.c:180
+msgid "Config tool"
+msgstr "Ekiyamba mu kuteekateeka"
+
+#: ../src/plugins/netstatus/netstatus.c:197
+msgid "Network Status Monitor"
+msgstr "Ekirabiriza mbeera ya kayungirizi"
+
+#: ../src/plugins/netstatus/netstatus.c:199
+msgid "Monitor network status"
+msgstr "Labiriza mbeera ya kayungirizi"
+
+#: ../src/plugins/netstatus/netstatus-dialog.c:51
+#: ../src/plugins/netstatus/netstatus-dialog.c:312
+msgid "Unknown"
+msgstr "Tekimanyidwa"
+
+#: ../src/plugins/netstatus/netstatus-dialog.c:116
+msgid "Connection Properties"
+msgstr "Nneyisa y'omukutu"
+
+#: ../src/plugins/netstatus/netstatus-dialog.c:122
+#, c-format
+msgid "Connection Properties: %s"
+msgstr "Nneyisa ya mukutu: %s"
+
+# fuzzy
+#: ../src/plugins/netstatus/netstatus-dialog.c:135
+#, c-format
+msgid "%lu packet"
+msgid_plural "%lu packets"
+msgstr[0] "kitole %lu"
+msgstr[1] "bitole %lu"
+
+#: ../src/plugins/netstatus/netstatus-dialog.c:396
+#, c-format
+msgid ""
+"There was an error displaying help:\n"
+"%s"
+msgstr ""
+"Ogw'okukulaga obuyambi guzzeko kiremya:\n"
+"%s"
+
+#: ../src/plugins/netstatus/netstatus-dialog.c:580
+#, c-format
+msgid "Failed to launch time configuration tool: %s"
+msgstr "Nemedwa okutandika ekiyamba okuteekateeka ssaawa: %s"
+
+#: ../src/plugins/netstatus/netstatus-icon.c:380
+#, c-format
+msgid "Network Connection: %s"
+msgstr "Omukutu gwa kayungirizi: %s"
+
+#: ../src/plugins/netstatus/netstatus-icon.c:385
+msgid "Network Connection"
+msgstr "Mukutu gwa kayungirizi"
+
+#: ../src/plugins/netstatus/netstatus-icon.c:842
+msgid "Interface"
+msgstr "Ensisinkano"
+
+#: ../src/plugins/netstatus/netstatus-icon.c:843
+msgid "The current interface the icon is monitoring."
+msgstr "Ensisinkano akafaananyi gye kategeeza nti y'elabirizibwa."
+
+#: ../src/plugins/netstatus/netstatus-icon.c:850
+msgid "Orientation"
+msgstr "Entereera"
+
+#: ../src/plugins/netstatus/netstatus-icon.c:851
+msgid "The orientation of the tray."
+msgstr "Entereera yakakuŋaanyizo."
+
+#: ../src/plugins/netstatus/netstatus-icon.c:859
+msgid "Tooltips Enabled"
+msgstr "Sisitemu ejjakukuwanga magezi"
+
+#: ../src/plugins/netstatus/netstatus-icon.c:860
+msgid "Whether or not the icon's tooltips are enabled."
+msgstr "Salawo oba ku bufaananyi wajjawo ebigambo bya kuwa magezi."
+
+#: ../src/plugins/netstatus/netstatus-icon.c:867
+msgid "Show Signal"
+msgstr "Amaanyi g'omukutu"
+
+#: ../src/plugins/netstatus/netstatus-icon.c:868
+msgid "Whether or not the signal strength should be displayed."
+msgstr ""
+"Salawo oba wanabawo ekikulaga amaanyi g'omukutu gwa kayungirizi ow'omu "
+"bbanga."
+
+#: ../src/plugins/netstatus/netstatus-icon.c:985
+#, c-format
+msgid ""
+"Please contact your system administrator to resolve the following problem:\n"
+"\n"
+"%s"
+msgstr ""
+"Ekizibu kino kyetaagisa buyinza bwa muteesiteesi wa sisitemu okukigonjoola:\n"
+"\n"
+"%s"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:148
+msgid "Name"
+msgstr "Linnya"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:149
+msgid "The interface name"
+msgstr "Erinnya ly'ensisinkano"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:156
+msgid "State"
+msgstr "Embeera"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:157
+msgid "The interface state"
+msgstr "Embeera ya mukutu ogw'oku nsisinkano"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:165
+msgid "Stats"
+msgstr "Ebibalidwa"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:166
+msgid "The interface packets/bytes statistics"
+msgstr "Ebibalidwa ku mpanyisigana y'ebitole/bayiti ku nsisinkano"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:174
+msgid "Whether the interface is a wireless interface"
+msgstr "Laga oba nsisinkano ya kayungirizi ow'omu bbanga"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:181
+msgid "Signal"
+msgstr "Mukutu"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:182
+msgid "Wireless signal strength percentage"
+msgstr ""
+"Maanyi ga mukutu gwa kayungirizi ow'omu bbanga mu bipimo bya bitundu ku "
+"kikumi"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:191
+#: ../src/plugins/netstatus/netstatus-util.c:167
+msgid "Error"
+msgstr "Kiremya"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:192
+msgid "The current error condition"
+msgstr "Ekireesewo kiremya"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:434
+#: ../src/plugins/netstatus/netstatus-iface.c:1197
+#, c-format
+msgid "Unable to open socket: %s"
+msgstr "Nnemedwa okuggula soketi: %s"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:496
+#: ../src/plugins/netstatus/netstatus-iface.c:1223
+#, c-format
+msgid "SIOCGIFFLAGS error: %s"
+msgstr "Waliwo kiremya mu kufuna ebifa ku nsisinkano - SIOCGIFFLAGS : %s"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:870
+msgid "AMPR NET/ROM"
+msgstr "AMPR NET/ROM"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:873
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:879
+msgid "AMPR AX.25"
+msgstr "AMPR AX.25"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:888
+#: ../src/plugins/netstatus/netstatus-iface.c:1008
+msgid "16/4 Mbps Token Ring"
+msgstr "Tokeni Ringi ya Mbps 16/4"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:891
+msgid "ARCnet"
+msgstr "ARCnet"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:897
+msgid "Frame Relay DLCI"
+msgstr "DLCI Frame Relay"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:903
+msgid "Metricom Starmode IP"
+msgstr "IP eya Metricom Starmode"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:906
+msgid "Serial Line IP"
+msgstr "SLIP"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:909
+msgid "VJ Serial Line IP"
+msgstr "VJ SLIP"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:912
+msgid "6-bit Serial Line IP"
+msgstr "SLIP eya 6-bit"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:915
+msgid "VJ 6-bit Serial Line IP"
+msgstr "VJ SLIP eya 6-bit"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:921
+msgid "Adaptive Serial Line IP"
+msgstr "SLIP eya Adaptive"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:924
+msgid "AMPR ROSE"
+msgstr "AMPR ROSE"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:927
+msgid "Generic X.25"
+msgstr "X.25 Owa bulijjo"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:930
+msgid "Point-to-Point Protocol"
+msgstr "PPP"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:936
+msgid "(Cisco)-HDLC"
+msgstr "(Cisco)-HDLC"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:939
+msgid "LAPB"
+msgstr "LAPB"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:948
+msgid "IPIP Tunnel"
+msgstr "Kkubo lya IPIP"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:954
+msgid "Frame Relay Access Device"
+msgstr "FRAD"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:960
+msgid "Local Loopback"
+msgstr "Ensisinkano eya munda"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:966
+msgid "Fiber Distributed Data Interface"
+msgstr "Ensisinkano ya mikutu egikozesa kitangaala"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:972
+msgid "IPv6-in-IPv4"
+msgstr "IPv6-mu-IPv4"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:984
+msgid "HIPPI"
+msgstr "HIPPI"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:987
+msgid "Ash"
+msgstr "Ash"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:990
+msgid "Econet"
+msgstr "Econet"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:993
+msgid "IrLAP"
+msgstr "IrLAP"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:1155
+#, c-format
+msgid "SIOCGIFCONF error: %s"
+msgstr "Waliwo kiremya mu kufuna ebifa ku nsisinkano - SIOCGIFCONF: %s"
+
+#: ../src/plugins/netstatus/netstatus-iface.c:1248
+#, c-format
+msgid "No network devices found"
+msgstr "Sizuddeyo byuma bikola ku kayungirizi"
+
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:180
+#, c-format
+msgid "Cannot open /proc/net/dev: %s"
+msgstr "Nnemedwa kubikkula /proc/net/dev: %s"
+
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:189
+msgid "Could not parse /proc/net/dev. Unknown format."
+msgstr "Nnemedwa okukebera /proc/net/dev. Empandika ya mu sigitegeera."
+
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:204
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:330
+#, c-format
+msgid "Could not parse interface name from '%s'"
+msgstr "Nnemedwa okuyungulula erinnya ly'ensisinkano okuva mu '%s'"
+
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:217
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:645
+#, c-format
+msgid ""
+"Could not parse interface statistics from '%s'. prx_idx = %d; ptx_idx = %d; "
+"brx_idx = %d; btx_idx = %d;"
+msgstr ""
+"Nnemedwa okuyungulula ebibalidwa ku nsisinkano okuva mu '%s'. prx_idx = %d; "
+"ptx_idx = %d; brx_idx = %d; btx_idx = %d;"
+
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:314
+msgid "Could not parse /proc/net/wireless. Unknown format."
+msgstr "Nnemedwa okukebera /proc/net/wireless. Emepandika ya mu sigitegeera."
+
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:341
+#, c-format
+msgid "Could not parse wireless details from '%s'. link_idx = %d;"
+msgstr ""
+"Nnemedwa okuyungulula ebifa ku kayungirizi ow'omu bbanga okuva mu '%s'. "
+"link_idx = %d;"
+
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:414
+#, c-format
+msgid "Could not connect to interface, '%s'"
+msgstr "Tekisobose okuggulawo omukutu ogw'okunsisinkano, '%s'"
+
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:420
+#, c-format
+msgid "Could not send ioctl to interface, '%s'"
+msgstr "Tekisobose okusindika nsisinkano ekiragiro ekya icotl, '%s'"
+
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:598
+#, c-format
+msgid "Could not parse command line '%s': %s"
+msgstr "Nnemedwa okuyungulula makulu mu kiragiro '%s': %s"
+
+#: ../src/plugins/netstatus/netstatus-sysdeps.c:635
+msgid "Could not parse 'netstat' output. Unknown format"
+msgstr ""
+"Nnemedwa okuyungulula amakulu mu bivudde mu 'netstat'. Empandika "
+"gy'ekozesezza sigitegeera"
+
+#: ../src/plugins/netstatus/netstatus-util.c:152
+msgid "Disconnected"
+msgstr "Omukutu guvuddewo"
+
+#: ../src/plugins/netstatus/netstatus-util.c:155
+msgid "Idle"
+msgstr "Tewali biyita"
+
+#: ../src/plugins/netstatus/netstatus-util.c:158
+msgid "Sending"
+msgstr "Waliwo ebisindikibwa"
+
+#: ../src/plugins/netstatus/netstatus-util.c:161
+msgid "Receiving"
+msgstr "Waliwo ebifunibwa"
+
+#: ../src/plugins/netstatus/netstatus-util.c:164
+msgid "Sending/Receiving"
+msgstr "Kusindika/Kufuna"
+
+#: ../src/plugins/batt/batt.c:132
+msgid "No batteries found"
+msgstr "Tewali manda"
+
+#: ../src/plugins/batt/batt.c:176
+#, c-format
+msgid "Battery: %d%% charged, %d:%02d until full"
+msgstr "Amanda: Gatuuse ku %d%%, ebulayo %d:%02d gajjule"
+
+#: ../src/plugins/batt/batt.c:187
+#, c-format
+msgid "Battery: %d%% charged, %d:%02d left"
+msgstr "Amanda: Gatuuse ku %d%%; ebulayo %d:%02d gaggwemu"
+
+#: ../src/plugins/batt/batt.c:193
+#, c-format
+msgid "Battery: %d%% charged"
+msgstr "Amanda: Gatuuse ku %d%%"
+
+#: ../src/plugins/batt/batt.c:573
+msgid "Hide if there is no battery"
+msgstr "Ekirabiriza kikise bwe watabawo manda"
+
+#: ../src/plugins/batt/batt.c:575
+msgid "Alarm command"
+msgstr "Ekiragiro ekifuga akajjukiza"
+
+#: ../src/plugins/batt/batt.c:576
+msgid "Alarm time (minutes left)"
+msgstr "Obudde obusigadde okufuna akajjukiza (ddakiika)"
+
+#: ../src/plugins/batt/batt.c:577
+msgid "Background color"
+msgstr "Langi ey'oku bwaliriro"
+
+#: ../src/plugins/batt/batt.c:578
+msgid "Charging color 1"
+msgstr "Langi ya kuzamu manda 1"
+
+#: ../src/plugins/batt/batt.c:579
+msgid "Charging color 2"
+msgstr "Langi ya kuzamu manda 2"
+
+#: ../src/plugins/batt/batt.c:580
+msgid "Discharging color 1"
+msgstr "Langi ya kunywa manda 1"
+
+#: ../src/plugins/batt/batt.c:581
+msgid "Discharging color 2"
+msgstr "Langi ya kunywa manda 2"
+
+#: ../src/plugins/batt/batt.c:582
+msgid "Border width"
+msgstr "Buggumivu bw'olukoboze olwetoolola njegoyego"
+
+#: ../src/plugins/batt/batt.c:612
+msgid "Battery Monitor"
+msgstr "Ekirabiriza manda"
+
+#: ../src/plugins/batt/batt.c:614
+msgid "Display battery status using ACPI"
+msgstr "Kozesa ACPI okulaga mbeera y'amanda"
+
+#: ../src/plugins/kbled/kbled.c:230
+msgid "Show CapsLock"
+msgstr "Wabewo ppeesa lya CapsLock"
+
+#: ../src/plugins/kbled/kbled.c:231
+msgid "Show NumLock"
+msgstr "Wabewo ppeesa lya NumLock"
+
+#: ../src/plugins/kbled/kbled.c:232
+msgid "Show ScrollLock"
+msgstr "Wabewo ppeesa lya ScrollLock"
+
+#: ../src/plugins/kbled/kbled.c:267
+msgid "Keyboard LED"
+msgstr "Butaala bw'oku mapeesa ga kompyuta"
+
+#: ../src/plugins/kbled/kbled.c:269
+msgid "Indicators for CapsLock, NumLock, and ScrollLock keys"
+msgstr "Ebiraga nti mapeesa aga CapsLock, NumLock oba ScrollLock gakola"
+
+#. A label to allow for click through
+#: ../src/plugins/indicator/indicator.c:698
+msgid "No Indicators"
+msgstr "Tewali biraga"
+
+#: ../src/plugins/indicator/indicator.c:897
+msgid "Indicator Applications"
+msgstr "Puloguramu ezikola ogw'okulaga"
+
+#: ../src/plugins/indicator/indicator.c:898
+msgid "Clock Indicator"
+msgstr "Puloguramu eraga ebya ssaawa"
+
+#: ../src/plugins/indicator/indicator.c:899
+msgid "Messaging Menu"
+msgstr "Menyu efuga enkola y'obubaka"
+
+#: ../src/plugins/indicator/indicator.c:900
+msgid "Network Menu"
+msgstr "Menyu efuga kayungirizi"
+
+#: ../src/plugins/indicator/indicator.c:901
+msgid "Session Menu"
+msgstr "Menyu efuga olutuula"
+
+#: ../src/plugins/indicator/indicator.c:902
+msgid "Sound Menu"
+msgstr "Menyu efuga ebikola ku biwulirizibwa"
+
+#: ../src/plugins/indicator/indicator.c:928
+msgid "Indicator applets"
+msgstr "Bupuloguramu obulaga"
+
+#: ../src/plugins/indicator/indicator.c:930
+msgid "Add indicator applets to the panel"
+msgstr "Olubaawo lw'ongereko bupuloguramu obulaga"
+
+#: ../src/plugins/monitors/monitors.c:284
+#, c-format
+msgid "CPU usage: %.2f%%"
+msgstr "Okukuluusana kw'kitundu ekibazi: %.2f%%"
+
+#: ../src/plugins/monitors/monitors.c:367
+#, c-format
+msgid "RAM usage: %.1fMB (%.2f%%)"
+msgstr "Ekifo puloguramu kye zimalawo mu RAM: MB%.1f (%.2f%%)"
+
+#: ../src/plugins/monitors/monitors.c:712
+msgid "CPU color"
+msgstr "Langi ey'ekitundu ekibazi"
+
+#: ../src/plugins/monitors/monitors.c:713
+msgid "Display RAM usage"
+msgstr "Laga enkozesa ya RAM"
+
+#: ../src/plugins/monitors/monitors.c:714
+msgid "RAM color"
+msgstr "Langi ya RAM"
+
+#: ../src/plugins/monitors/monitors.c:715
+msgid "Action when clicked (default: lxtask)"
+msgstr "Ekiba wo nga onyize kuno (Ekya bulijjo: lxtask)"
+
+#: ../src/plugins/monitors/monitors.c:808
+msgid "Resource monitors"
+msgstr "Ebirabiriza enkozesa y'obusobozi bwa kompyuta"
+
+#: ../src/plugins/monitors/monitors.c:810
+msgid "Display monitors (CPU, RAM)"
+msgstr "Laga ebirabiriza (ekitundu ekibazi ne RAM)"
+
+#: ../src/plugins/wnckpager/wnckpager.c:720
+msgid "WNCKPager"
+msgstr "WNCKPager"
+
+#: ../src/plugins/wnckpager/wnckpager.c:722
+msgid "WNCKpager plugin"
+msgstr "Ekyongerwako kya WNCKpager"
